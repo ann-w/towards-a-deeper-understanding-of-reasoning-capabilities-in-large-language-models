@@ -1,0 +1,13 @@
+name: SmartPlay
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10
+  - torchvision
+  - torchaudio
+  - pytorch
+  - wheel<0.40.0
+  - setuptools<67.0.0
+prefix: /anaconda/envs/SmartPlay

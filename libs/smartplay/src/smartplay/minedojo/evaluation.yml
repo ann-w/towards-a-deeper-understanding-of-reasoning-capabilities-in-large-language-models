@@ -1,0 +1,17 @@
+challenges:
+  all:
+    Error/Mistake Handling: 2
+    Generalization: 3
+    Instruction Following: 2
+    Learning from Interactions: 1
+    Long Text Understanding: 1
+    Planning: 1
+    Understanding the Odds: 2
+    Reasoning: 1
+    Spatial Reasoning: 3
+recorded settings:
+  MinedojoCreative0: 
+    iter: 20
+    steps: 200
+    human score: 1
+    min score: 0

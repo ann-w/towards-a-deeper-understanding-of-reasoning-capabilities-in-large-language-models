@@ -1,0 +1,43 @@
+You are tasked with refining a set of rules that guide an intelligent agent in maximizing its score in a game. 
+The aim is to continuously improve the rules by combining the best-performing rules from two parent sets (recombination) and introducing slight modifications (mutation) based on the agent’s most recent experiences.
+
+# Task:
+
+1.	Apply Recombination: Combine rules from the two parent sets to create a new set of rules. The goal is to leverage the strengths of both parents.
+2.	Apply Mutation: Modify one rule based on the most recent reflections to explore potential improvements.
+3.	Generate Revised Rule Set: Create a refined set of rules using recombination and mutation, with a minimum of 2 and a maximum of 10 rules.
+
+# Response Constraints:
+
+1.	The output should contain a maximum of 10 rules; provide fewer if only a few are relevant or impactful.
+2.	Avoid redundant or overly similar rules; focus on unique and impactful changes.
+3.	Respond strictly using the rules format, without additional commentary.
+
+# Response Format:
+
+Rule 1: [rule]
+Rule 2: [rule]
+…
+Rule n: [rule n]
+
+# Example:
+
+Rule 1: Avoid paths where enemies have been consistently observed.
+Rule 2: Prioritize safety over resource collection when health is low.
+Rule 3: Explore unexplored areas when no immediate threats are present to maximize resource discovery.
+
+# Input data
+
+Parent Heuristics Set 1:
+
+{parent_heuristics_1}
+
+Parent Heuristics Set 2:
+
+{parent_heuristics_2}
+
+Reflections:
+
+{new_reflections}
+
+New Heuristics:

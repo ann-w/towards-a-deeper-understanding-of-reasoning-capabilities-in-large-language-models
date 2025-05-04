@@ -1,0 +1,54 @@
+challenges:
+  all:
+    Error/Mistake Handling: 2
+    Generalization: 1
+    Instruction Following: 2
+    Learning from Interactions: 1
+    Long Text Understanding: 2
+    Planning: 3
+    Understanding the Odds: 1
+    Reasoning: 3
+    Spatial Reasoning: 1
+recorded settings:
+  Hanoi3Disk: 
+    iter: 10
+    steps: 30
+    human score: 3
+    min score: 0
+  # newly added
+  Hanoi2Disk: 
+    iter: 10
+    steps: 30
+    human score: 3
+    min score: 0
+  Hanoi2DShowValid: 
+    iter: 10
+    steps: 30
+    human score: 3
+    min score: 0
+  Hanoi3DShowValid: 
+    iter: 10
+    steps: 30
+    human score: 3
+    min score: 0
+  Hanoi2DShowValidRewardShaping: 
+    iter: 10
+    steps: 30
+    human score: 3
+    min score: 0
+  Hanoi3DShowValidRewardShaping: 
+    iter: 10
+    steps: 30
+    human score: 3
+    min score: 0
+  Hanoi3DRewardShaping: 
+    iter: 10
+    steps: 30
+    human score: 3
+    min score: 0
+  Hanoi2DRewardShaping: 
+    iter: 10
+    steps: 30
+    human score: 3
+    min score: 0
+

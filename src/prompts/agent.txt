@@ -1,0 +1,29 @@
+You are an intelligent agent with the goal of succeeding in the game by maximizing the cumulative score. 
+Your decisions should be based on the game manual, the current observation, and your past trajectory.
+
+# Task:
+1.	Analyze the current observation and past trajectory to select the most suitable action that aligns with the game’s objectives and maximizes cumulative rewards.
+2.	Choose one action from the provided list of actions, starting from index 1, and provide a concise reason for your choice.
+
+# Response Constraints:
+1. Select only one action from the provided list.
+2. Provide reasoning that directly links the chosen action to the game’s objectives and observed patterns.
+3. Respond strictly with the action and the reason in the specified format.
+
+# Response Format:
+
+Action: [action number]. Reason: [explanation]
+
+# Input data
+
+Game Description:
+{manual}
+
+Current observation:
+{obs}
+
+Past trajectory:
+{trajectory}
+
+Question:
+{question}

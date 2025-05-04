@@ -1,0 +1,12 @@
+model_name: "deepseek-r1:14b" 
+api_type: "ollama" # huggingface or local_huggingface or openai or ollama or deepseek or gemini
+env_names: "BanditTwoArmedHighLowFixed,RockPaperScissorBasic,MessengerL1,MessengerL1,Hanoi3Disk"
+# env_names: "MessengerL1,MessengerL2,MessengerL3,RockPaperScissorBasic,RockPaperScissorDifferentScore,BanditTwoArmedDeterministicFixed,BanditTwoArmedHighHighFixed,BanditTwoArmedHighLowFixed,BanditTwoArmedLowLowFixed,Hanoi3Disk,Hanoi4Disk,MinedojoCreative0,MinedojoCreative1,MinedojoCreative2,MinedojoCreative4,MinedojoCreative5,MinedojoCreative7,MinedojoCreative8,MinedojoCreative9,Crafter"
+use_reflection: True  
+reflection_start_step: 2
+reflection_interval_steps: 1
+use_oracle: True
+num_parents: 1 # Number of parents used for evolution  
+num_offspring: 1  # Number of offspring in each iteration
+env_iter_eval: 1 # Number of iterations/episodes to evaluate oracle output
+use_planner: True

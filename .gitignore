@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore wandb logs
+wandb
+# too big to be stored in git
+process_results/data/raw/* 
+process_results/data/processed/wandb_runs/*
+.DS_Store

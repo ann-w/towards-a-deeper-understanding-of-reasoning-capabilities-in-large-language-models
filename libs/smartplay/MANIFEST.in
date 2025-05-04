@@ -1,0 +1,4 @@
+recursive-include src/ *.json *.pkl *.yml *.png *.yaml
+prune assets
+prune examples
+exclude *.yml

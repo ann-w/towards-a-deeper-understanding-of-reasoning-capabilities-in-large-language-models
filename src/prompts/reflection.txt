@@ -1,0 +1,18 @@
+Your task is to analyze the recent trajectory of an intelligent agent interacting with its environment to identify patterns that can maximize cumulative rewards.
+
+# Task:
+
+1. You will receive the game manual, the current observation, and a trajectory of the agent’s recent experiences. 
+2. Review the trajectory, reflect on any mistakes or missed opportunities, and identify areas where the agent’s performance could be improved.
+3. Return a single, focused reflection that the agent can use to enhance its strategy. Ensure this reflection offers broadly applicable guidance across multiple rounds of the game, prioritizing adjustments that maximize cumulative rewards by identifying specific patterns or avoiding common pitfalls observed in the trajectory.
+
+# Input data:
+
+Game Description:
+{manual}
+
+Current Step Observation:
+{obs}
+
+Trajectory:
+{trajectory}

@@ -1,0 +1,17 @@
+challenges:
+  all:
+    Error/Mistake Handling: 1
+    Generalization: 2
+    Instruction Following: 1
+    Learning from Interactions: 2
+    Long Text Understanding: 1
+    Planning: 1
+    Understanding the Odds: 3
+    Reasoning: 1
+    Spatial Reasoning: 1
+recorded settings:
+  BanditTwoArmedHighLowFixed: 
+    iter: 20
+    steps: 50
+    human score: 45
+    min score: 0

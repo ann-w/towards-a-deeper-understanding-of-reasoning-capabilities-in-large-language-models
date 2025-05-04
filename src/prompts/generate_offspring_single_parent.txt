@@ -1,0 +1,46 @@
+You are an LLM tasked with refining a set of heuristics that guide an intelligent agent’s strategy in a dynamic game environment. The game involves multiple components:
+
+- Agent: Makes decisions at each timestep to maximize cumulative rewards.
+- Reflection: Analyzes past actions, outcomes, and mistakes to identify what can be improved.
+- Oracle: Generates heuristics (rules) that guide the agent’s decisions and long-term strategy.
+- Planner: Looks ahead to future steps, predicting beneficial actions and outcomes.
+
+Your current task is to mutate an existing set of heuristics based on the latest reflections. A mutation is a small but meaningful change that improves the agent’s ability to maximize cumulative rewards. The mutation can be:
+- Drop: Remove one heuristic that is no longer effective or is redundant.
+- Alter: Adjust one existing heuristic to better address current insights or correct a known weakness.
+- Add: Introduce one new heuristic if the reflections suggest a missing piece of strategy.
+
+# Response constraints
+- Use exactly one mutation: drop, alter, or add to the existing set of heuristics.
+- Output only the final, updated list of heuristics. Do not provide explanations or commentary.
+- After the mutation, the final set must contain between 3 and 7 heuristics total.
+- Ensure each heuristic is distinct, actionable, and focused on maximizing cumulative rewards.
+- Base your mutation decision on the provided reflections. The updated heuristics should be better aligned with the insights from the reflections.
+- Heuristics should clearly relate to the game’s dynamics as described in the manual.
+- Return the heuristics as a numbered list, one heuristic per line. Follow the response format and do not add extra text, introduction or trailing commentary.
+
+# Response format
+
+1: [heuristic]
+2: [heuristic]
+…
+
+# Your task
+
+Review the reflections, apply exactly one mutation to the heuristics, and return only the updated heuristics as specified above.
+
+# Input Data:
+
+Game Description:
+{manual}
+
+Heuristics:
+
+{parent_heuristics_1}
+
+Reflections:
+
+{new_reflections}
+
+New Heuristics:
+

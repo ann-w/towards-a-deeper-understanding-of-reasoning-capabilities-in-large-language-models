@@ -1,0 +1,17 @@
+challenges:
+  all:
+    Error/Mistake Handling: 3
+    Generalization: 3
+    Instruction Following: 3
+    Learning from Interactions: 4
+    Long Text Understanding: 4
+    Planning: 3
+    Understanding the Odds: 2
+    Reasoning: 3
+    Spatial Reasoning: 2
+recorded settings:
+  Crafter: 
+    iter: 10
+    steps: 10000
+    human score: 2680
+    min score: 0

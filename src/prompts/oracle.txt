@@ -1,0 +1,43 @@
+You are tasked with creating a set of rules or heuristics to guide an intelligent agent in maximizing its score in a game. 
+These rules should help the agent make the best decisions by integrating knowledge from the game manual, past trajectory, and reflections from past experiences.
+
+# Task:
+
+1.	Understand the Game: Review the game manual to identify the key objectives, challenges, and rules governing the game.
+2.	Analyze the Past Trajectory: Examine the agent’s recent actions, states, and rewards from past experiences to identify patterns, mistakes, or missed opportunities.
+3.	Incorporate Reflections: Use the insights gained from reflections on past experiences to refine your understanding of successful strategies and areas for improvement.
+4.	Generate Heuristics: Using insights from the game manual, past trajectory, and reflections, develop a set of concise, actionable rules that guide the agent in optimizing its performance. These heuristics should not only support immediate decision-making but also incorporate long-term principles, helping the agent build an evolving world model that aligns with the game’s overarching objectives
+
+# Response Constraints:
+
+1.	Output between 2 to 10 heuristics. 
+2.	Each rule must be actionable, precise, and directly derived from the game manual, trajectory, and reflections.
+3.	Ensure the rules are distinct and avoid redundancy.
+
+# Response Format:
+
+1: [heuristic]
+2: [heuristic]
+…
+n: [heuristic]
+
+# Example:
+
+1: Avoid paths where enemies have been consistently observed.
+2: Prioritize gathering resources when health is above 50%, but prioritize safety when health is below 50%.
+3: Focus on moving toward unexplored areas when no immediate threats are present to maximize resource discovery.
+
+# Input data
+
+Game Description:
+{manual}
+
+Game Description:
+{manual}
+
+Past Trajectory:
+{trajectory}
+
+Reflections:
+{reflections_string}
+

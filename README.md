@@ -1,6 +1,6 @@
 # Towards-a-deeper-understanding-of-reasoning-capabilities-in-large-language-models
 
-This is the code repository accompanying the paper 'Towards a deeper understanding of reasoning capabilities in large language models'.
+This is the code repository accompanying the paper 'Towards a deeper understanding of reasoning capabilities in large language models'. You can find the paper [here](https://arxiv.org/pdf/2505.10543).
 
 # 1. Installation
 

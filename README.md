@@ -24,7 +24,7 @@ Make sure to have conda installed. The installation consists of two steps. First
     > The gym version in Smartplay relies on a specific pip version, you can run:
     > `pip install --upgrade pip==23.*`
 
-3. From the root folder, activatate the virtual env:
+3. From the root folder, activate the virtual env:
 
     ```bash
     conda activate SmartPlay
